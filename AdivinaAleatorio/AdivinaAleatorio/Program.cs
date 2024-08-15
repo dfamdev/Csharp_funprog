@@ -42,10 +42,8 @@ namespace AdivinaAleatorio
                     try
                     {
                         Console.Write("\nCuál crees que es el número buscado? ");
-                        numeroIngresado = int.Parse(Console.ReadLine()!);
-            
+                        numeroIngresado = int.Parse(Console.ReadLine()!);           
                         estaOK = true;
-
                         if (numeroIngresado >= 1 && numeroIngresado <= 100)
                         {
                             contadorIntentos++;
