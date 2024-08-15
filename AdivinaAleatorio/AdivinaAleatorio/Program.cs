@@ -47,7 +47,6 @@ namespace AdivinaAleatorio
                         if (numeroIngresado >= 1 && numeroIngresado <= 100)
                         {
                             contadorIntentos++;
-
                             //Aqui identificamos si estamos por encima, por debajo o igual
                             if (numeroIngresado > numeroBuscado)
                                 Console.WriteLine("Te pasaste! el número buscado es menor!");
