@@ -72,7 +72,6 @@ namespace AdivinaAleatorio
                     }
                 }
             }
-
             Console.WriteLine($"Te gastaste {contadorIntentos} intentos en hallar el número");
         }
     }
